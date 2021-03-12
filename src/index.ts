@@ -1,9 +1,9 @@
 interface Person {
-  age: number
+  mood: string
 }
 
 let person: Person = {
-  age: 24,
+  mood: 'hungry',
 }
 
 console.log(person)
