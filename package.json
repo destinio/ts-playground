@@ -1,12 +1,11 @@
 {
-  "name": "section-one",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "ts-playground",
+  "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "ts": "tsc -w",
+    "start:ts": "tsc -w",
     "start:js": "nodemon build/index.js",
-    "start": "concurrently \"yarn ts\" \"yarn start:js\""
+    "start": "concurrently \"yarn start:ts\" \"yarn start:js\""
   },
   "dependencies": {
     "node-fetch": "^2.6.1"
